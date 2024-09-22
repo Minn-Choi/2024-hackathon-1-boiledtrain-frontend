@@ -355,7 +355,7 @@ const DiaryWrite = () => {
       setModalIsOpen(true);
     } catch (error) {
       console.error('Error fetching course data:', error);
-      alert('코스 정보를 불러오는 데 실패했습니다.');
+      alert('코스 정보를 불러오는데 실패했습니다.');
     }
   };
 
